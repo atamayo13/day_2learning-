@@ -1,71 +1,82 @@
-# Description: This file is for the second day of the python workshop
+# # Description: This file is for the second day of the python workshop
 
 
-# create variables for the following :
-# 1. age
-age = 25 #this is an integer
-# 2. name
-name = "John" #this is a string
-# 3. song
-song= "Happy birthday" #this is a string
-# 4. food
-food = "banans" #this is a string 
-# 5. number
-number = 100 #this is an integer
-priceOfMovie = 10.99 #this is a float
-# #now include the variables you just made print in the following...
-print(f''' Once upon a time, there was a {age} old coder named {name}.
- {name} liked to hum the song {song} while coding. It was so annoying that their teammates would
- throw {food} until {name} would stop singing.
- Still, {name} was the best coder on the team and could write {number} lines of code every day.
-Maybe {song} was {name}’s secret power?
- No one will ever know.''') 
+# # create variables for the following :
+# # 1. age
+# age = 25 #this is an integer
+# # 2. name
+# name = "John" #this is a string
+# # 3. song
+# song= "Happy birthday" #this is a string
+# # 4. food
+# food = "banans" #this is a string 
+# # 5. number
+# number = 100 #this is an integer
+# priceOfMovie = 10.99 #this is a float
+# # #now include the variables you just made print in the following...
+# print(f''' Once upon a time, there was a {age} old coder named {name}.
+#  {name} liked to hum the song {song} while coding. It was so annoying that their teammates would
+#  throw {food} until {name} would stop singing.
+#  Still, {name} was the best coder on the team and could write {number} lines of code every day.
+# Maybe {song} was {name}’s secret power?
+#  No one will ever know.''') 
 
-#f string interpretation is a way to gormat strings in puthon 
-#it allows you to use variables inside of strings
-# What is syntax ? What is an algorithm? is a way of writing code that is 
-#in python
-#name ="John" #javascript suntac
-#what is algorithm
-#a set of instrruction that are followed to solve a problem
-# what is a variable? What is a string?
-#variable holds data
-#name = "john" #string this defined
-#age = is undefined becasue it has no value
-#strings are nothing but plain text
-# what does this do?
-print("Giraffe \n academy")
-#\n makes a new line
-print("Giraffe \t academy")
-#\t makes a new tab
-
-
-# or this
-phrase = "python learning"
-print(phrase + "is cool")
-#this is called concatentation or string interpolation
-#what does the + sign do? What is it called?
+# #f string interpretation is a way to gormat strings in puthon 
+# #it allows you to use variables inside of strings
+# # What is syntax ? What is an algorithm? is a way of writing code that is 
+# #in python
+# #name ="John" #javascript suntac
+# #what is algorithm
+# #a set of instrruction that are followed to solve a problem
+# # what is a variable? What is a string?
+# #variable holds data
+# #name = "john" #string this defined
+# #age = is undefined becasue it has no value
+# #strings are nothing but plain text
+# # what does this do?
+# print("Giraffe \n academy")
+# #\n makes a new line
+# print("Giraffe \t academy")
+# #\t makes a new tab
 
 
-#what if I wanted to get the length of a phrase?
-#phrase = str(phrase)
-print(f'the length of the phrase {len(phrase)}')
+# # or this
+# phrase = "python learning"
+# print(phrase + "is cool")
+# #this is called concatentation or string interpolation
+# #what does the + sign do? What is it called?
 
-declarationOfInDependence = ""
-#find the length of the declaration of independence
-#declarionOfInDependence = str(declarationOfInDependence)
-print(f'the length of the declaration is {len(declarationOfInDependence)}')
-#len allows you to find the length of a string
+
+# #what if I wanted to get the length of a phrase?
+# #phrase = str(phrase)
+# print(f'the length of the phrase {len(phrase)}')
+
+# declarationOfInDependence = ""
+# #find the length of the declaration of independence
+# #declarionOfInDependence = str(declarationOfInDependence)
+# print(f'the length of the declaration is {len(declarationOfInDependence)}')
+# #len allows you to find the length of a string
    
 #what if I wanted to make the letters in the variable upper case or lower?
-
-
+new_phrase = "welcome to day 2 part 3"
+print(len(new_phrase))
+print(new_phrase.upper())
+#.upper is a method that makes the string all upper case
+#parentheses are used to call methods
+print(new_phrase.lower())
+#.lower is a method that makes the string all lower case
 
 
 #what if I wanted to check and see if the phrase was all lower or upper?
-
+print(new_phrase.islower()) #returns
 
 #What if I wanted to get one letter of the phrase
+print(new_phrase[0])#prints the first letter
+print(new_phrase[1])#prints the second letter
+print(new_phrase[2])#prints the third letter
+print(new_phrase[11])#prints the fourth letter
+#get the last letter of the phrase
+print(new_phrase[-1])
 
 
 # The names you use when creating these labels need to follow a few rules:
@@ -86,20 +97,28 @@ print(f'the length of the declaration is {len(declarationOfInDependence)}')
 
 
 # Addition
+print(2 +2)
 
 # Subtraction
+print(2 - 5)
 
 # Multiplication
+print(2 * 3)
 
 # Division
+print(10 / 2)
 
 # Modulus
+print(10 % 3) # 10 divided by 3 is 3 with a remainder of 1
 
 # Exponentiation
+print(2 ** 3) #2 to the power of 3
 
 # Floor Division
+print(10//3) #10 divided by 3 is 3 with a remainder of 1
 
 # Order of Operations followed in Python
+print ( 2 * 3 + 1 )#7
 
 # You can use parentheses to specify the order in which you want operations to be performed.
 
