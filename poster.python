@@ -1,0 +1,8 @@
+
+print("who would you like to vote for")
+askStudent = input ("vote?")
+
+if askStudent > 1:
+    print("too many")
+else:
+    print("thank you for your vote!")

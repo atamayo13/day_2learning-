@@ -25,7 +25,9 @@ def scoreMe():
         print("F")
     #Ensure the score entered is within the valid range (0-100). If not, print an error message.
 
-#cakk the function        
+#call the function        
 scoreMe()
 scoreMe()
 scoreMe()
+
+
